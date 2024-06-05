@@ -16,12 +16,17 @@ body {
   );
 }
 
-main {
+form {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
   display: grid;
   gap: 5px;
   grid-template-columns: auto;
   grid-auto-rows: auto;
-  /* grid-template-areas:;*/}
+  /* grid-template-areas:;*/
+}
 
 .logo{
   text-align: center;
@@ -46,7 +51,8 @@ a{
 
 fieldset{
   width: 650px;
-  margin-left: 240px;
+  justify-content: center;
+  align-items: center;
 
 }
 

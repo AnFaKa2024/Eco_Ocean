@@ -78,11 +78,15 @@ p {
 }
 
 .tartaruga {
+  height: 20vw;
   text-align: center;
   grid-area: tart;
 }
 
 .peixe {
+  display: flex;
+  align-items: center;
+  height: 20vw;
   text-align: center;
   grid-area: peixe;
 }
