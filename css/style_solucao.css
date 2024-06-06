@@ -113,6 +113,8 @@ footer {
 
 a {
     color: rgb(163, 48, 67);
+    text-decoration: none;
+    line-height: 1.5;
 }
   
   

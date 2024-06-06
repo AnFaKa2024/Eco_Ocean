@@ -16,6 +16,7 @@ body {
   );
 }
 
+
 form {
   justify-content: center;
   align-items: center;
@@ -25,7 +26,13 @@ form {
   gap: 5px;
   grid-template-columns: auto;
   grid-auto-rows: auto;
-  /* grid-template-areas:;*/
+  grid-template-areas: 
+  'aside  form  form '
+  'aside  form  form '
+  'aside  form  form '
+  'aside  form  form '
+  'aside  form  form '
+  'footer footer footer';
 }
 
 .logo{
@@ -42,11 +49,11 @@ ul {
 
 li {
   list-style: none;
-  color: rgb(163, 48, 67);
 }
 
 a{
   text-decoration: none;
+  color: rgb(163, 48, 67);
 }
 
 fieldset{
@@ -55,7 +62,7 @@ fieldset{
   align-items: center;
 
 }
-
+/* 
 .idNome{
   margin-top: 6px;
 }
@@ -137,7 +144,7 @@ fieldset{
 
 .infoSim{
   margin-left:180px;
-}
+} */
 
 .infoNao{
   margin-top: -19px;
