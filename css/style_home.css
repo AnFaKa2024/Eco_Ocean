@@ -5,15 +5,9 @@
 }
 
 body {
-  color: darkblue;
+  color:#00266A;
   font-family: "Maven Pro", sans-serif;
-  background-image: linear-gradient(
-    to right top,
-    #0083c6,
-    #00a4c5,
-    #00c2b7,
-    #85dbaa
-  );
+  background-color:  #469cf4;
 }
 
 main {
@@ -96,7 +90,7 @@ footer {
 }
 
 a {
-  color: rgb(163, 48, 67);
+  color: #683E00;
   text-decoration: none;
   line-height: 1.5;
 }
