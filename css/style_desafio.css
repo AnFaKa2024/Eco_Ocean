@@ -26,7 +26,6 @@ main {
   "onda onda p3 p3"
   "h3 h3 h3 h3"
   "p4 p4 p4 p4"
-  "footer footer footer";
 }
 
 h1 {
@@ -46,21 +45,21 @@ h2 {
 .p3 {
   grid-area: p3;
 }
+
 h3 {
   grid-area: h3;
 }
+
 .p4 {
   grid-area: p4;
 }
-
 .pneu {
   display: flex;
   align-items: center;
   height: 20vw;
   text-align: center;
   grid-area: pneu;
-  }
-  
+} 
 .onda {
   display: flex;
   align-items: center;
