@@ -27,41 +27,7 @@ main {
         "h3     h3    h3"
         "praia  p5    p5";
 }
-  
-h1 {
-    grid-area: h1;
-    text-align: center;
-}
-  
-h2 {
-    grid-area: h2;
-}
 
-h3 {
-    grid-area: h3;
-}
-
-ul {
-    padding: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    grid-area: ul;
-}
-  
-li {
-    margin: 20px;
-    list-style: none;
-    color: rgb(163, 48, 67);
-}
-  
-p {
-    margin: 25px;
-    text-align: justify;
-    text-indent: 20px;
-    line-height: 2;
-}
-  
 .p1 {
     grid-area: p1;
 }
@@ -101,16 +67,70 @@ p {
     text-align: center;
     grid-area: praia;
 }
+  
+h1 {
+    grid-area: h1;
+    text-align: center;
+}
+  
+h2 {
+    grid-area: h2;
+}
+
+h3 {
+    grid-area: h3;
+}
+
+nav {
+    margin-top: 18px;
+    margin-left: 10px;
+    padding: 1px;
+    background-color: #F17439;
+    border-radius:  50% 20% / 10% 40%;
+  }
+
+ul {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+}
+  
+li {
+    margin: 20px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  
+p {
+    margin: 25px;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 2;
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    
+}
+strong{
+    font-size: 25px;
+    
+}
 
 footer {
     grid-area: footer;
 }
 
-a {
-    color: rgb(163, 48, 67);
-    text-decoration: none;
-    line-height: 1.5;
-}
+
   
   
   

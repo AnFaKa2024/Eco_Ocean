@@ -38,15 +38,11 @@ h2 {
 .p1 {
   grid-area: p1;
 }
-.pneu {
-  grid-area: pneu;
-}
+
 .p2 {
   grid-area: p2;
 }
-.onda {
-  grid-area: onda;
-}
+
 .p3 {
   grid-area: p3;
 }
@@ -56,38 +52,33 @@ h3 {
 .p4 {
   grid-area: p4;
 }
-footer {
-  grid-area: footer;
-}
-
-p {
-  margin: 25px;
-  text-align: justify;
-  text-indent: 20px;
-  line-height: 2;
-}
 
 .pneu {
   display: flex;
   align-items: center;
   height: 20vw;
   text-align: center;
-}
-
+  grid-area: pneu;
+  }
+  
 .onda {
   display: flex;
   align-items: center;
   height: 20vw;
   text-align: center;
+  grid-area: onda;
 }
 
 footer {
   margin-left: 10px;
+  grid-area: footer;
 }
-a {
-  color: #683e00;
-  text-decoration: none;
-  line-height: 1.5;
+      
+nav {
+  margin-left: 10px;
+  padding: 1px;
+  background-color: #F17439;
+  border-radius:  50% 20% / 10% 40%;
 }
 
 ul {
@@ -95,10 +86,23 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  grid-area: ul;
+
 }
 
 li {
   list-style: none;
-  color: rgb(163, 48, 67);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+p {
+  margin: 25px;
+  text-align: justify;
+  text-indent: 20px;
+  line-height: 2;
 }

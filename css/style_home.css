@@ -44,6 +44,14 @@ footer {grid-area: footer;}
 h1 {
   text-align: center;
 }
+
+nav {
+  margin-left: 10px;
+  padding: 1px;
+  background-color: #F17439;
+  border-radius:  50% 20% / 10% 40%;
+}
+
 ul {
   padding: 5px;
   display: flex;
@@ -54,7 +62,6 @@ ul {
 
 li {
   list-style: none;
-  color: rgb(163, 48, 67);
 }
 
 p {
@@ -83,8 +90,10 @@ p {
 footer{
   margin-left: 10px;
 }
+
 a {
-  color: #683E00;
+  color: white;
+  font-size: 20px;
   text-decoration: none;
   line-height: 1.5;
 }

@@ -6,9 +6,17 @@
 
 body {
   color:#00266A;
-    font-family: "Maven Pro", sans-serif;
-    background-color:  #469cf4;
-}
+  font-family: "Maven Pro", sans-serif;
+  background-color:  #469cf4;
+  }
+
+
+main{
+  margin-top: 45px;
+  margin-left: 15px;
+  display: flex;
+  gap: 20px;
+  }
 
 
 form {
@@ -18,7 +26,7 @@ form {
   height: 100%;
   display: grid;
   gap: 5px;
-  grid-template-columns: auto;
+  grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: auto;
   grid-template-areas: 
   'aside  form  form '
@@ -29,15 +37,20 @@ form {
   'footer footer footer';
 }
 
+aside{grid-area: aside;}
+form {grid-area: form;}
+footer{grid-area: footer;}
+
+
 .logo{
   text-align: center;
 }
 
 nav {
-  border: 2px solid;
+  margin-left: 10px;
   padding: 1px;
-  background-color: darkblue;
-  
+  background-color: #F17439;
+  border-radius:  50% 20% / 10% 40%;
 }
 
 ul {
@@ -54,54 +67,77 @@ li {
 
 a{
   text-decoration: none;
-  color: rgb(163, 48, 67);
+  color: white;
+  font-size: 20px;
+}
+
+.cap{
+  margin-top: 35px;
+  font-size: 30px;
+  
 }
 
 fieldset{
-  width: 650px;
-  justify-content: center;
-  align-items: center;
-
+  margin-top: 50px;
+  width: 850px;
+  height: 850px;
+  background-color: #F17439;
 }
-/* 
+
+form{
+  display: flex;
+  column-gap: 2px;
+  row-gap: 5px;
+  flex-flow: column wrap;
+  flex-basis: 70rem;
+  text-wrap:balance;  
+}
+
 .idNome{
-  margin-top: 6px;
+  margin: 15px;
+  font-size: 25px;
 }
 
 .idDataNasc{
-  margin-top: -18px;
-  margin-left: 350px;
+ margin: 15px;
+ font-size: 25px;
 }
+
 
 .idEmail{
-  margin-top: 10px;
+  margin: 15px;
+  font-size: 25px;
 }
 
+
 .idgenero{
-  margin-top: -18px;
-  margin-left: 350px;
+  margin: 15px;
+  font-size: 25px;
 }
 
 .idCidade{
-  margin-top: 10px;
+  margin: 15px;
+  font-size: 25px;
 }
 
 .idBairro{
-  margin-top: -18px;
-  margin-left: 350px;
+  margin: 15px; 
+  font-size: 25px;
 }
 
 .coleta{
   text-align: center;
-  margin-top: 35px;
+  margin-top: 55px;
 }
 .coleSim{
   margin-left:180px;
+  font-size: 25px;
 }
 
 .coleNao{
   margin-top: -19px;
   margin-left: 410px;
+  font-size: 25px;
 }
 
 .descarte{
@@ -110,32 +146,38 @@ fieldset{
 }
 
 .plastico{
-  margin-left: 30px;
+  margin-left: 50px;
+  font-size: 20px;
 }
 
 .madeira{
-  margin-top:-20px;
-  margin-left: 155px;
+  margin-top:-23px;
+  margin-left: 200px;
+  font-size: 20px;
 }
 
 .vidro{
-  margin-top:-20px;
-  margin-left: 275px;
+  margin-top:-23px;
+  margin-left: 330px;
+  font-size: 20px;
 }
 
 .papelao{
-  margin-top:-20px;
-  margin-left: 375px;
+  margin-top:-23px;
+  margin-left: 460px;
+  font-size: 20px;
 }
 
 .isopor{
-  margin-top:-20px;
-  margin-left: 500px;
+  margin-top:-23px;
+  margin-left: 630px;
+  font-size: 20px;
 }
 
 .residuo{
   text-align: center;
   margin-top: 15px ;
+  font-size: 20px;
 }
 
 .info{
@@ -145,9 +187,41 @@ fieldset{
 
 .infoSim{
   margin-left:180px;
-} */
+  font-size: 25px;
+}
 
 .infoNao{
-  margin-top: -19px;
+  margin-top: -30px;
   margin-left: 410px;
+  font-size: 25px;
 }
+
+aside{
+  margin:20px;
+  display: flex;
+  row-gap: 15px;
+  flex-flow: column wrap;
+  flex-basis: 35rem;
+  text-wrap:balance;
+}
+
+p{
+  font-size: 25px;
+}
+
+.p1{
+  font-size: 30px;
+  text-align: center;
+}
+
+.a1{
+  font-size: 25px;
+}
+.a2{
+  font-size: 20px;
+}
+
+.botao{
+  margin:70px;
+}
+
