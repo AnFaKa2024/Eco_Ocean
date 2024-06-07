@@ -11,9 +11,10 @@ body {
 }
 
 main {
+  margin-left: 10px;
   display: grid;
   gap: 5px;
-  grid-template-columns: auto;
+  grid-template-columns: repeat(4, 1f);
   grid-auto-rows: auto;
   grid-template-areas:
     "h1   h1  h1  h1"
@@ -26,21 +27,29 @@ main {
     "p4   p4  p4  p4";
 }
 
+h1 {grid-area: h1;}
+h2 {grid-area: h2;}
+ul {grid-area: ul;}
+.p1 {grid-area: p1;}
+.p2 {grid-area: p2;}
+.p3 {grid-area: p3;}
+.p4 {grid-area: p4;}
+.tartaruga{grid-area: tart;}
+.peixe{grid-area: peixe;}
+footer {grid-area: footer;}
+
+
+
+
 h1 {
-  grid-area: h1;
   text-align: center;
 }
-
-h2 {
-  grid-area: h2;
-}
-
 ul {
   padding: 5px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  grid-area: ul;
+  
 }
 
 li {
@@ -55,26 +64,12 @@ p {
   line-height: 2;
 }
 
-.p1 {
-  grid-area: p1;
-}
-
-.p2 {
-  grid-area: p2;
-}
-
-.p3 {
-  grid-area: p3;
-}
-
-.p4 {
-  grid-area: p4;
-}
 
 .tartaruga {
+  display: flex;
+  align-items: center;
   height: 20vw;
   text-align: center;
-  grid-area: tart;
 }
 
 .peixe {
@@ -82,13 +77,12 @@ p {
   align-items: center;
   height: 20vw;
   text-align: center;
-  grid-area: peixe;
 }
 
-footer {
-  grid-area: footer;
-}
 
+footer{
+  margin-left: 10px;
+}
 a {
   color: #683E00;
   text-decoration: none;
